@@ -1,0 +1,12 @@
+2023-03-24 11:35:34 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "'fsd' (EMPLEADO: ""SALARIO"" BIGINT)"
+Data conversion error converting "'fsd' (EMPLEADO: ""SALARIO"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."EMPLEADO"("USERNAME","APELLIDOS","NOMBRE","SALARIO")VALUES(?,?,?,?) [22018-214]
+2023-03-24 11:35:34 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "'fsd' (EMPLEADO: ""SALARIO"" BIGINT)"
+Data conversion error converting "'fsd' (EMPLEADO: ""SALARIO"" BIGINT)"; SQL statement:
+INSERT INTO "PUBLIC"."EMPLEADO"("USERNAME","APELLIDOS","NOMBRE","SALARIO")VALUES(?,?,?,?) [22018-214]
+2023-03-24 11:36:10 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM EMPLEADO CLIENTE [*]EMPLEADO"
+Syntax error in SQL statement "SELECT * FROM EMPLEADO CLIENTE [*]EMPLEADO"; SQL statement:
+SELECT * FROM EMPLEADO CLIENTE EMPLEADO [42000-214]
